@@ -11,11 +11,11 @@ class Cars:
         print(self.model)
 
     def print_make_year (self, make, year):
-        print(self.make)
-        print(self.year)
+        print(make)
+        print(year)
 
 my_cars = Cars("chevy", "forester", "1987")
 
-print(my_cars.print_make_year("forester", "2036"))
+print(my_cars.model)
 
 
